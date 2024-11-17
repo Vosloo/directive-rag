@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "directive-bot"
+version = "0.1.0"
+description = ""
+authors = ["Vosloo <marek.szydlow@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+flake8 = "^7.1.1"
+black = "^24.10.0"
+faiss-cpu = "^1.9.0"
+langchain = "^0.3.7"
+langchain-community = "^0.3.5"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.3.0"
+regex = "^2024.11.6"
+ipykernel = "^6.29.5"
+pandas = "^2.2.3"
+langchain-groq = "^0.2.1"
+python-dotenv = "^1.0.1"
+sentence-transformers = "^3.3.0"
+langchain-huggingface = "^0.1.2"
+gradio = "^5.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
