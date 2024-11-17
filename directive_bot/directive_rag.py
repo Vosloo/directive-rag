@@ -101,8 +101,10 @@ Context:
             else:
                 self._vector_store = FAISS.from_documents(documents, self._embeddings)
         else:
+            print("Loading vector store ...")
             self._vector_store.add_documents(documents)
 
+        print("Done.")
         self._vector_store.save_local("directive_faiss")
 
     def retrieve(self, query: str) -> str:

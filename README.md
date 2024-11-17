@@ -26,7 +26,7 @@ The system consists of several components working together:
 ## How to Run
 
 1. Clone the repository
-2. Install the requirements using poetry (preferably in a virtual environment):
+2. Install the requirements using poetry (preferably in a virtual environment) using Python3.11:
 
 ```bash
 poetry install
